@@ -42,7 +42,7 @@ header .desktop .navbar-brand {
     position: absolute;
     padding-right: 5%;
     font-size: 3vw;
-
+    -webkit-text-stroke: 1px rgb(211, 211, 253);
 }
 
 header .phone li a,
@@ -51,6 +51,7 @@ header .tabletv1 li a,
 header .desktop li a {
     text-decoration: none;
     color: black;
+    -webkit-text-stroke: 1px rgb(211, 211, 253);
 }
 
 header .phone li,
@@ -61,7 +62,6 @@ header .desktop li {
     margin-left: 22%;
     -webkit-text-stroke: 1px rgb(211, 211, 253);
     display: inline-block;
-    color: black;
     padding-left: 5%;
     padding-right: 0%;
     font-size: 2vw;
@@ -488,7 +488,7 @@ header .desktop6 nav div div ul li {
 
     body div .carousel-inner {
         background-image: url(http://drive.google.com/uc?export=view&id=1z1n0Y5C_Hyyo4y4nbPB3s-Si1q974ZuC);
-        background-size: 100% 300px;
+        background-size: 100% 350px;
         background-repeat: no-repeat;
         min-height: 350px;
         max-height: 350px;
@@ -593,6 +593,8 @@ header .desktop6 nav div div ul li {
         top: 10%;
         left: 60%;
         font-size: 5vw;
+        -webkit-text-stroke: 1px red;
+        color: white;
     }
 
     .tercercuadro div div p {
@@ -606,47 +608,64 @@ header .desktop6 nav div div ul li {
         color: white;
     }
 
-    .cuartocuadro div #img1 {
-        height: 100px;
-        width: 20%;
-        border-radius: 100%;
-        transform: rotate(340deg);
-        margin-left: 10%;
-        margin-bottom: -5%;
-        margin-top: 5%;
-
-    }
-
-    .cuartocuadro div #img2 {
-        height: 100px;
-        width: 20%;
-        border-radius: 100%;
-        transform: rotate(40deg);
-        margin-left: 30%;
-        margin-top: 5%;
-        margin-bottom: 25%;
-        margin-right: -10%;
-
-    }
-
     .cuartocuadro div div h5 {
         position: absolute;
         top: 5%;
-        left: 60%;
-        font-size: 5vw;
+        left: 55%;
+        font-size: 150%;
+        -webkit-text-stroke: 1px red;
+        color: white;
     }
 
     .cuartocuadro div div p {
         position: absolute;
-        padding-top: 2%;
-        left: 60%;
-        top: 15%;
+        padding-top: 35px;
+        left: 55%;
         text-align: justify;
         width: 30%;
         font-size: 80%;
         color: white;
     }
 
+    body .img1{
+        position: absolute;
+        height: 80px;
+        left: 20vw;
+        top: 5px;
+        border: .1vw solid black;
+        border-radius: .5vw;
+        width: 12.5%;
+    }
+
+    body .img2{
+        position: absolute;
+        height: 80px;
+        left: 31vw;
+        top: 75px;
+        border: .1vw solid black;
+        border-radius: .5vw;
+        width: 12.5%;
+    }
+
+    body .img3{
+        position: absolute;
+        height: 80px;
+        left: 20vw;
+        top: 145px;
+        border: .1vw solid black;
+        border-radius: .5vw;
+        width: 12.5%;
+    }
+
+    body .img4{
+        position: absolute;
+        height: 80px;
+        left: 31vw;
+        top: 215px;
+        border: .1vw solid black;
+        border-radius: .5vw;
+        width: 12.5%;
+    }
 
     .Menucompleto {
         margin-bottom: 5%;
@@ -847,7 +866,7 @@ header .desktop6 nav div div ul li {
 
 .nav2 .nav-item a {
     width: 80%;
-    font-size: 1.5vw;
+    font-size: 1.45vw;
     font-weight: 700;
     color: black;
 }
@@ -855,12 +874,9 @@ header .desktop6 nav div div ul li {
 .nav2 .nav-item a:hover {
 
     -webkit-text-stroke: .1vw rgb(189, 13, 13);
-    font-size: 1.58vw;
+    font-size: 1.5vw;
 
 }
-
-
-
 
 
 
@@ -887,7 +903,6 @@ header .desktop6 nav div div ul li {
         max-height: 700px;
         width: 100%;
         margin-top: 3%;
-
     }
 
     .primercuadro div div p {
@@ -983,24 +998,80 @@ header .desktop6 nav div div ul li {
         font-family: gill sans;
     }
 
-    .cuartocuadro div div h5 {
-        margin-left: 65%;
-        margin-top: -480px;
-        font-size: 250%;
-        text-align: center;
-        width: 30%;
-        font-family: gill sans;
+    #carrusel4pos{
+        position: relative;
+    }
 
+    .cuartocuadro div div h5 {
+        position: absolute;
+        top: 5vw;  
+        font-size: 200%;
+        left: 45vw;
     }
 
     .cuartocuadro div div p {
-        margin-left: 65%;
-        font-size: 140%;
+        position: absolute;
+        top: 10vw;
+        font-size: 150%;
+        left: 40vw;
         text-align: justify;
         width: 30%;
-        line-height: 200%;
+        max-height: 30vw;
+        line-height: 3vw;
         font-family: gill sans;
+        overflow: scroll;
     }
+
+    
+    .cuartocuadro div div p::-webkit-scrollbar{
+        display: none;
+    }
+
+    body .img1 {
+
+        height: 400%;
+        position: absolute;
+        left: 15vw;
+        border-radius: .5vw;
+        border: solid .01vw black;
+        top: 50%;
+        width: 15%;
+    
+    }
+    
+    body .img2 {
+    
+        height: 400%;
+        position: absolute;
+        border-radius: .5vw;
+        border: solid .01vw black;
+        left: 28vw;
+        top: 400%;
+        width: 15%;
+    }
+    
+    body .img3 {
+    
+        height: 400%;
+        position: absolute;
+        border-radius: .5vw;
+        border: solid .01vw black;
+        left: 15vw;
+        top: 750%;
+        width: 15%;
+    }
+    
+    body .img4 {
+    
+        height: 400%;
+        position: absolute;
+        border-radius: .5vw;
+        border: solid .01vw black;
+        left: 28vw;
+        top: 1100%;
+        width: 15%;
+    }
+
 
     .Menucompleto {
         margin-bottom: 5%;
@@ -1322,7 +1393,6 @@ body #subheader #delivery {
 /*********************** Cards de menu *******************************/
 
 body .titulomenus {
-    margin-top: 5vw;
     position: relative;
 }
 
@@ -1350,10 +1420,11 @@ body #listadecomida a {
 
 body .containerseccion {
     margin-left: 15%;
-    height: 25vw;
-    display: flex;
+    max-height: 75vw;
+    display: inline-flex;
     margin-bottom: 5vw;
     width: 70%;
+    flex-wrap: wrap;
 
 }
 
@@ -1370,6 +1441,7 @@ body .containerseccion div {
     transition: all 1s ease;
     box-shadow: 1vw 1vw 2vw black, 1vw 1vw 2vw white;
     position: relative;
+    margin-bottom: 8%;
 }
 
 body .containerseccion div:hover {
@@ -2101,7 +2173,6 @@ body .modal-container .fondodivcarrito .botoninscribir {
     margin-left: 2vw;
     border: none;
     color: WHITE;
-
 }
 
 body .modal-container .fondodivcarrito .botonlimpiar {
@@ -2148,3 +2219,27 @@ body .cesta-carrito {
     transition: all 1s;
     opacity: 0;
 }
+
+footer div{
+    width: 80%;
+    overflow: hidden;
+    padding-bottom: 3vw;
+    display: flex;
+    margin: auto;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+footer img{
+    width: 30%;
+    padding: 0;
+    text-decoration: none;
+}
+footer div a{
+    text-decoration: none;
+    margin: auto;
+    color: black;
+
+}
+
