@@ -644,27 +644,11 @@ const carnes = [
         cantidad: 1
     },
     {
-        id: 68,
-        nombre: "Carne en Salsa de Tomate", 
-        precio: 12.00,
-        img: "http://drive.google.com/uc?export=view&id=1V3Q5DF6VmrUl4zBuCMcCaFAZb6YB0zge",
-        desc: "Carne de Res en lonjas con Salsa de Tomate.",
-        cantidad: 1
-    },
-    {
         id: 69,
         nombre: "Carne con Merey", 
         precio: 12.00,
         img: "http://drive.google.com/uc?export=view&id=1V3Q5DF6VmrUl4zBuCMcCaFAZb6YB0zge",
         desc: "Carne de Res en lonjas acompañadas con trozos de Merey.",
-        cantidad: 1
-    },
-    {
-        id: 70,
-        nombre: "Steak Know", 
-        precio: 12.00,
-        img: "http://drive.google.com/uc?export=view&id=1V3Q5DF6VmrUl4zBuCMcCaFAZb6YB0zge",
-        desc: "Carne de Res en dados con Vegetales chinos bañados en Salsa de Ostras.",
         cantidad: 1
     },
     {
@@ -697,14 +681,6 @@ const carnes = [
         precio: 12.00,
         img: "http://drive.google.com/uc?export=view&id=1V3Q5DF6VmrUl4zBuCMcCaFAZb6YB0zge",
         desc: "Carne de Res adobado principalmente con Pimienta Negra.",
-        cantidad: 1
-    },
-    {
-        id: 75,
-        nombre: "Carne con Encurtidos", 
-        precio: 12.00,
-        img: "http://drive.google.com/uc?export=view&id=1V3Q5DF6VmrUl4zBuCMcCaFAZb6YB0zge",
-        desc: "Carne de Res acompañado con Vegetales chinos encurtidos.",
         cantidad: 1
     },
     {
